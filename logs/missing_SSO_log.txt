@@ -1,0 +1,4 @@
+[Fri Aug 22 17:01:13 2025] File hr_files\HR_myduyen_ly.xlsx: 1 rows missing SSO
+Rows with missing SSO:
+       EID
+7  1005302

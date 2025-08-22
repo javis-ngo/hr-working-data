@@ -1,0 +1,117 @@
+[Fri Aug 22 15:57:08 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (6 total rows)
+[Fri Aug 22 15:57:13 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (6 total rows)
+[Fri Aug 22 15:57:19 2025] Merged 1 rows from hr_files\HR_ho_thanh.xlsx into update\master_data_updated.xlsx (7 total rows)
+[Fri Aug 22 15:57:24 2025] Merged 6 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (13 total rows)
+[Fri Aug 22 15:57:41 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 15:57:46 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:00:51 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:05:09 2025] Merged 6 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:06:50 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:06:55 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:07:00 2025] Merged 1 rows from hr_files\HR_ho_thanh.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:15:43 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:22:39 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:23:09 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:28:06 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:36:26 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:36:31 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:36:36 2025] Merged 1 rows from hr_files\HR_ho_thanh.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:36:41 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:36:44 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:37:07 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:37:10 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:38:23 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:38:30 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:42:44 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 16:43:12 2025] Merged 8 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (15 total rows)
+[Fri Aug 22 16:43:15 2025] Merged 8 rows from hr_files\HR_myduyen_ly.xlsx into update\master_data_updated.xlsx (15 total rows)
+[Fri Aug 22 16:57:57 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx (HR: buiminhph) into master_data_updated.xlsx (6 total rows)
+[Fri Aug 22 16:58:01 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx (HR: buiminhph) into master_data_updated.xlsx (6 total rows)
+[Fri Aug 22 16:58:04 2025] Merged 1 rows from hr_files\HR_ho_thanh.xlsx (HR: ho_thanh) into master_data_updated.xlsx (7 total rows)
+[Fri Aug 22 16:59:04 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx (HR: buiminhph) into master_data_updated.xlsx (7 total rows)
+[Fri Aug 22 16:59:07 2025] Merged 7 rows from hr_files\HR_buiminhph.xlsx (HR: buiminhph) into master_data_updated.xlsx (7 total rows)
+[Fri Aug 22 16:59:10 2025] Merged 1 rows from hr_files\HR_ho_thanh.xlsx (HR: ho_thanh) into master_data_updated.xlsx (7 total rows)
+[Fri Aug 22 16:59:13 2025] Merged 6 rows from hr_files\HR_myduyen_ly.xlsx (HR: myduyen_ly) into master_data_updated.xlsx (13 total rows)
+[Fri Aug 22 16:59:38 2025] Merged 6 rows from hr_files\HR_myduyen_ly.xlsx (HR: myduyen_ly) into master_data_updated.xlsx (13 total rows)
+[Fri Aug 22 17:00:38 2025] Merged 7 rows from hr_files\HR_myduyen_ly.xlsx (HR: myduyen_ly) into master_data_updated.xlsx (14 total rows)
+[Fri Aug 22 17:01:13 2025] Merged 8 rows from hr_files\HR_myduyen_ly.xlsx (HR: myduyen_ly) into master_data_updated.xlsx (15 total rows)
+2025-08-22 17:24:05,993 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\ManageITVN\AppData\Local\Temp\ipykernel_24528\2666636663.py", line 250, in <module>
+    with pd.ExcelWriter(OUTPUT_MASTER_FILE, engine='xlsxwriter') as writer:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\excel\_xlsxwriter.py", line 197, in __init__
+    from xlsxwriter import Workbook
+ModuleNotFoundError: No module named 'xlsxwriter'
+2025-08-22 17:24:43,130 INFO {'read_s': 5.815, 'merge_s': 0.004, 'map_s': 0.007, 'enrich_s': 0.001, 'write_master_s': 0.105, 'write_hr_s': 0.145, 'total_s': 6.082, 'rows_hiring': 23, 'rows_final': 53}
+2025-08-22 17:29:46,479 INFO Duplicate key detected in hiring on 'Emp id': 2 rows across 1 keys
+2025-08-22 17:29:46,487 INFO Duplicate key detected in lineup on 'S\u1ed1 CMND/CCCD:': 587 rows across 275 keys
+2025-08-22 17:29:46,488 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\ManageITVN\AppData\Local\Temp\ipykernel_24528\957564294.py", line 194, in <module>
+    lineup_df = report_dups(lineup_df, 'S\u1ed1 CMND/CCCD:', 'lineup')
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManageITVN\AppData\Local\Temp\ipykernel_24528\957564294.py", line 187, in report_dups
+    dup.to_csv(out, index=False)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'logs\dups_lineup_S\u1ed1 CMND'
+2025-08-22 17:37:56,091 INFO Duplicate key detected in hiring on 'Emp id': 2 rows across 1 keys
+2025-08-22 17:37:56,100 INFO Duplicate key detected in lineup on 'S\u1ed1 CMND/CCCD:': 587 rows across 275 keys
+2025-08-22 17:37:56,255 ERROR Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\ManageITVN\AppData\Local\Temp\ipykernel_13864\884901814.py", line 284, in <module>
+    with pd.ExcelWriter(OUTPUT_MASTER_FILE, engine='xlsxwriter') as writer:
+         ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\excel\_xlsxwriter.py", line 204, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ~~~~~~~~~~^
+        path, mode, storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "c:\Users\ManageITVN\PyCharmMiscProject\.venv\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'master_data.xlsx'
+2025-08-22 17:38:22,008 INFO Duplicate key detected in hiring on 'Emp id': 2 rows across 1 keys
+2025-08-22 17:38:22,015 INFO Duplicate key detected in lineup on 'S\u1ed1 CMND/CCCD:': 587 rows across 275 keys
+2025-08-22 17:38:22,276 INFO {'read_s': 5.149, 'merge_s': 0.008, 'map_s': 0.008, 'enrich_s': 0.001, 'write_master_s': 0.065, 'write_hr_s': 0.152, 'total_s': 5.422, 'rows_hiring': 22, 'rows_final': 22}
