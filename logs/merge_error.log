@@ -1,6 +1,0 @@
-[Fri Aug 22 15:53:08 2025] Error saving update\master_data_updated.xlsx: Cannot save file into a non-existent directory: 'update'
-[Fri Aug 22 15:53:13 2025] Error saving update\master_data_updated.xlsx: Cannot save file into a non-existent directory: 'update'
-[Fri Aug 22 15:53:18 2025] Error saving update\master_data_updated.xlsx: Cannot save file into a non-existent directory: 'update'
-[Fri Aug 22 15:53:23 2025] Error saving update\master_data_updated.xlsx: Cannot save file into a non-existent directory: 'update'
-[Fri Aug 22 16:22:44 2025] Error saving update\master_data_updated.xlsx: [Errno 13] Permission denied: 'update\\master_data_updated.xlsx'
-[Fri Aug 22 16:28:11 2025] Error saving update\master_data_updated.xlsx: [Errno 13] Permission denied: 'update\\master_data_updated.xlsx'
