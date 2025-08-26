@@ -6,6 +6,8 @@ import schedule
 from filelock import FileLock
 from datetime import datetime
 
+from logic import write_preserving_formulas_and_styles
+
 # Cấu hình logging
 logs_path = "logs"
 os.makedirs(logs_path, exist_ok=True)
@@ -18,12 +20,20 @@ logging.basicConfig(
     ]
 )
 
+SKIP_MASTER = 11
+SHEET_MASTER = "Masterdata_PSteam"
+keep_format_columns = [
+        "SENIORITY", "PROBATION CONTRACT NO", "FROM", "TO", "DEFINITE CONTRACT 1 NO", "FROM", "TO",
+        "DEFINITE CONTRACT 2 NO", "FROM", "TO", "IN-DEFINITE CONTRACT  NO", "FROM",
+        "END EMPLOYMENT DATE", "BASE SALARY", "COMPLEXCITY ALLOWANCE", "POSITION ALLOWANCE", "Language allowance", "Total amount contribute SHUI", "MEAL ALLOWANCE", "SUBTOTAL", "SHUI FROM", "SHUI TO"
+    ]
+
 
 def read_file_with_retry(file_path, retries=5, initial_delay=1):
     """Đọc file Excel với cơ chế retry và backoff."""
     for attempt in range(retries):
         try:
-            return pd.read_excel(file_path)  # Đọc toàn bộ cột
+            return pd.read_excel(file_path, skiprows=11)  # Đọc toàn bộ cột
         except Exception as e:
             delay = initial_delay * (2 ** attempt)  # Exponential backoff
             logging.error(f"Retry {attempt + 1}/{retries} for {file_path}: {e}")
@@ -111,8 +121,15 @@ def merge_hr_files():
     # Lưu file master_data_updated
     lock_file = f"{master_updated_file}.lock"
     with FileLock(lock_file):
+        write_preserving_formulas_and_styles(
+            template_path=master_origin_file,  # file template gốc
+            output_path=master_updated_file,  # file đích
+            df=merged_data,  # dữ liệu đã merge
+            sheet_name=SHEET_MASTER,  # tên sheet trong template
+            header_skip_rows=SKIP_MASTER,  # số row skip trước header
+            keep_formula_columns=keep_format_columns  # cột cần giữ công thức
+        )
         try:
-            merged_data.to_excel(master_updated_file, index=False)
             logging.info(f"Saved master_data_updated with {len(merged_data)} rows")
         except Exception as e:
             logging.error(f"Error saving {master_updated_file}: {e}")
@@ -128,20 +145,28 @@ def merge_hr_files():
             final_data = pd.concat([origin_data, merged_data], ignore_index=True)
             final_data = final_data.drop_duplicates(subset=['EID'], keep='last')
 
-            # Lưu lại master_data_updated
+            # Lưu lại master_data
             with FileLock(lock_file):
-                final_data.to_excel(master_updated_file, index=False)
+                write_preserving_formulas_and_styles(
+                    template_path=master_origin_file,  # file template gốc
+                    output_path=master_origin_file,  # file đích
+                    df=final_data,  # dữ liệu đã merge
+                    sheet_name=SHEET_MASTER,  # tên sheet trong template
+                    header_skip_rows=SKIP_MASTER,  # số row skip trước header
+                    keep_formula_columns=keep_format_columns  # cột cần giữ công thức
+                )
+                # final_data.to_excel(master_updated_file, index=False)
                 logging.info(f"Final merged data saved with {len(final_data)} rows")
         except Exception as e:
             logging.error(f"Error merging with {master_origin_file}: {e}")
     else:
-        logging.info(f"Don't merge data with {master_origin_file}")
+        logging.warning(f"Don't merge data with {master_origin_file}")
     duration = time.time() - start_time
     logging.info(f"Completed merge in {duration:.2f} seconds")
 
 
 def schedule_merge():
-    time_schedule="10:59"
+    time_schedule="14:38"
     schedule.every().day.at(time_schedule).do(merge_hr_files)
     logging.info(f"Scheduled merge job at {time_schedule} AM daily")
 
